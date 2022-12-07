@@ -2,5 +2,6 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mongodb-config-map
+  namespace: my-namespace
 data:
   database_url: mongodb-service
